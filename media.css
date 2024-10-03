@@ -1,0 +1,191 @@
+@media screen and (max-width:800px) {
+
+  .nav-logo {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    /* padding: 10px 2.4rem 2.4rem 2.4rem; */
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main-nav-link {
+    padding: 1rem;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+  }
+
+  .nav-img {
+    width: 25px;
+  }
+
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    margin-top: 5rem;
+    /* z-index: 9999; */
+    /* background-color: #e7f5ff; */
+    backdrop-filter: blur(10px);
+    gap: 4rem;
+    padding: 3rem;
+    width: 100%;
+    display: none;
+    transition: all 3s ease-in-out;
+    /* height: 50%; */
+    /* transform: translateX(100%); */
+  }
+
+  .show {
+    display: flex;
+
+  }
+
+  .main-nav-link {
+    font-size: 2rem;
+    display: inline-block;
+  }
+
+
+  .btn-mobile-nav {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 3rem;
+  }
+
+
+  .hero {
+    max-width: 140rem;
+    padding: 4rem 4.2rem 0;
+    gap: 0;
+    display: block;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+  }
+
+  .hero-img-box {
+    display: none;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+
+  .aboutus-section {
+    padding: 4rem;
+
+  }
+
+  .about-us {
+    display: block;
+  }
+
+  .product-img {
+    box-shadow: none;
+  }
+
+  .about-details {
+    padding: 2.4rem;
+  }
+
+  .about-description {
+    font-size: 1.2rem;
+  }
+
+  .testimonials {
+    row-gap: 2.8rem;
+    column-gap: 3.2rem;
+    padding: 0 4.8rem;
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-heading {
+    font-size: 2rem;
+  }
+
+  .testimonial-text-box {
+    font-size: 1.4rem;
+  }
+
+  .accordion {
+    padding: 4.8rem;
+  }
+
+  .question-box,
+  .answer-box {
+    font-size: 1.5rem;
+  }
+
+  .footer-container {
+    /* padding: 0 0; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .hero {
+    gap: 5.2rem;
+  }
+
+  .btn {
+    padding: 1.6rem 2.8rem;
+    font-size: 1.5rem;
+  }
+
+  /* .aboutus-section {
+    padding: 6.2rem 5.4rem;
+  } */
+
+  .product-img {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.083);
+  }
+
+  .grid-col-2 {
+    column-gap: 0;
+  }
+
+  .about-img-box {
+    align-content: center;
+  }
+
+  .about-description {
+    font-size: 1.2rem;
+  }
+
+  .testimonials-section {
+    padding: 6.2rem 0;
+  }
+
+  .testimonial-text-box {
+    font-size: 1.5rem;
+  }
+
+  .testimonials {
+    padding: 4.2rem;
+  }
+}
