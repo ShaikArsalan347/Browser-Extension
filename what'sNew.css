@@ -53,21 +53,12 @@ a {
   text-decoration: none;
 }
 
-.back-btn {
-  border: 1px solid #555;
-  background: none;
-  font-size: 1.5rem;
-  color: #222;
-  position: absolute;
-  bottom: 10%;
-  right: 40px;
-}
-
 .footer {
   text-align: center;
   margin-top: 20px;
   color: #666;
 }
+
 .back-btn {
   position: fixed;
   bottom: 10px;
