@@ -12,7 +12,11 @@ for (let i = 0; i < opensBtns.length; i++) {
   });
 }
 navBtn.addEventListener("click", function () {
-  navList.forEach((each) => {
-    each.classList.toggle("show");
+  navList.classList.toggle("show");
+});
+
+navList.forEach((each) => {
+  each.addEventListener("click", function () {
+    navList.classList.toggle("show");
   });
 });
