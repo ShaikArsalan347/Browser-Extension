@@ -68,3 +68,14 @@ a {
   margin-top: 20px;
   color: #666;
 }
+.back-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
