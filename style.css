@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -34,7 +34,7 @@ body {
 .grid {
   display: grid;
   column-gap: 6.4rem;
-  margin-bottom: 4.8rem
+  margin-bottom: 4.8rem;
 }
 
 .grid-col-2 {
@@ -88,14 +88,12 @@ a {
   gap: 5rem;
   list-style: none;
   cursor: pointer;
-
 }
 
 .main-nav-link {
   font-size: 1.6rem;
   font-weight: 600;
   color: #555;
-  ;
 }
 
 .main-nav-link:hover {
@@ -210,7 +208,6 @@ a {
   margin-bottom: 3.2rem;
 }
 
-
 .aboutus-section {
   padding: 9.6rem 0;
 }
@@ -226,7 +223,7 @@ a {
 
 .about-us {
   background-color: #ffffff;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.050);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.5s;
@@ -255,8 +252,6 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
-
 
 .View-details-btn {
   font-size: 1.7rem;
@@ -324,7 +319,7 @@ a {
   padding: 2.4rem;
   border-radius: 9px;
   background-color: #fbfdff;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.050);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
   transition: all 0.4s;
 }
 
@@ -340,8 +335,6 @@ a {
 .customer-name {
   font-size: 1.4rem;
 }
-
-
 
 .FAQ-section {
   padding: 9.6rem 0;
@@ -387,8 +380,6 @@ a {
   font-size: 2rem;
   cursor: pointer;
 }
-
-
 
 .show {
   display: block;
@@ -466,7 +457,6 @@ a {
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 223, 0.5);
 } */
 
-
 footer {
   background-color: #333;
   color: #fff;
@@ -485,7 +475,6 @@ footer {
   display: flex;
   margin-top: 20px;
   gap: 10px;
-
 }
 
 .footer-img {
@@ -509,7 +498,6 @@ footer {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
-
 
 .footer-section p,
 .footer-section ul {
