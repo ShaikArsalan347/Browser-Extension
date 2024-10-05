@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #007bff;
+  background: #1864ab;
   color: #fff;
   padding: 10px 20px;
   text-align: center;
@@ -29,6 +29,11 @@ main {
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.upcoming-features {
+  position: relative;
 }
 
 h2 {
@@ -44,11 +49,16 @@ li {
   margin: 8px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .footer {
   text-align: center;
   margin-top: 20px;
   color: #666;
 }
+
 .back-btn {
   position: fixed;
   bottom: 10px;
