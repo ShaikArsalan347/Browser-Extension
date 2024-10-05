@@ -67,19 +67,22 @@ a {
 
 .logo-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 8px;
 }
 
 .nav-logo {
   color: #1864ab;
-  font-size: 3.2rem;
+  font-size: 2rem;
   font-weight: 600;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   cursor: pointer;
 }
 
 .nav-img {
-  width: 40px;
+  width: 20px;
+  height: 20px;
 }
 
 .main-nav-list {
