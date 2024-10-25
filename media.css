@@ -38,16 +38,15 @@
     top: 10%;
     right: 0;
     margin-top: 5rem;
-    /* z-index: 9999; */
-    /* background-color: #e7f5ff; */
+    background-color: rgba(124, 200, 255, 0.8);
     backdrop-filter: blur(10px);
+    color: #fff;
     gap: 4rem;
     padding: 3rem;
     width: 100%;
     display: none;
     transition: all 3s ease-in-out;
-    /* height: 50%; */
-    /* transform: translateX(100%); */
+
   }
 
   .show {
