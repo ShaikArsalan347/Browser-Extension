@@ -59,10 +59,18 @@ a {
 
 .header {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: #e7f5ff;
-  padding: 2.4rem 0;
+  background-color: #fff;
+  padding: 3rem 0;
+  z-index: 999;
+  border-bottom: 0.6px solid gray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: fixed;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .logo-container {
@@ -126,15 +134,16 @@ a {
 .hero-section {
   background-color: #e7f5ff;
   padding: 4.8rem 0 9.6rem 0;
+  height: 100vh;
 }
 
 .hero {
   max-width: 130rem;
-  margin: 0 auto;
+  margin: 10rem auto;
   padding: 0 3.2rem;
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   gap: 9.6rem;
 }
 
@@ -387,7 +396,6 @@ a {
 .show {
   display: block;
 }
-
 
 footer {
   background-color: #333;
